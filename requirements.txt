@@ -1,0 +1,9 @@
+# Core dependencies
+python-telegram-bot==20.7
+ffmpeg-python==0.2.0
+moviepy==1.0.3
+
+# Note: ffmpeg must be installed separately on your system
+# Windows: Download from https://ffmpeg.org/download.html
+# Linux: sudo apt install ffmpeg
+# Mac: brew install ffmpeg
