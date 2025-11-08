@@ -1,0 +1,18 @@
+services:
+  bot:
+    build: .
+    container_name: video_splitter_bot
+    restart: unless-stopped
+    environment:
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+    volumes:
+      # حفظ السجلات خارج الحاوية (اختياري)
+      - ./logs:/app/logs
+    # إزالة limit إذا كان السيرفر قوي
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+        reservations:
+          memory: 512M
+

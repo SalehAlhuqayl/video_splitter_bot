@@ -4,21 +4,8 @@ __pycache__/
 *$py.class
 *.so
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
-.installed.cfg
-*.egg
+.eggs/
 
 # Virtual Environment
 .venv/
@@ -31,8 +18,6 @@ env/
 .idea/
 *.swp
 *.swo
-*~
-.DS_Store
 
 # Environment variables
 .env
@@ -48,15 +33,25 @@ logs/
 temp/
 tmp/
 
-# Video files (optional - uncomment if you don't want to track video files)
-# *.mp4
-# *.avi
-# *.mov
-# *.mkv
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
 
 # Jupyter Notebook
 .ipynb_checkpoints
 *.ipynb
+
+# Git
+.git/
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
 
 # Project specific
 cuts/
@@ -66,7 +61,4 @@ test_files/
 # OS
 Thumbs.db
 .DS_Store
-
-# Docker
-*.log
 

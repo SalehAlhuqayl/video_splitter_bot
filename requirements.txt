@@ -2,6 +2,7 @@
 python-telegram-bot==20.7
 ffmpeg-python==0.2.0
 moviepy==1.0.3
+yt-dlp==2024.3.10
 
 # Note: ffmpeg must be installed separately on your system
 # Windows: Download from https://ffmpeg.org/download.html
